@@ -10,7 +10,7 @@ cursor = mydb.cursor()
 cursor.execute("select * from data")
 features= []
 label = []
-for i in cursor:\n",
+for i in cursor:
     features.append([i[1],i[2], i[3]])
     label.append(i[4])
 print(features)
