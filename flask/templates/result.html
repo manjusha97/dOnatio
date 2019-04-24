@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For loop</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<th>Subject</th>
+			<th>Marks</th>
+		</tr>
+		{% for sub, marks in result.iteritems() %}
+		<tr>
+			<td> {{ sub }} </td>
+			<td> {{ marks }} </td>
+		</tr>
+		{% endfor %}
+	</table>
+
+</body>
+</html>
