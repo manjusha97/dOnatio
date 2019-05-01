@@ -131,7 +131,7 @@ button:focus {
     margin: auto; }
 
 .lite_bg {
-  background: #d9d9d9; }
+  background: #f9f9f9; }
 
 /* End Main Title Area css
 ============================================================================================ */
@@ -414,7 +414,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  min-height: 780px;
+  min-height: 520px;
   display: flex;
   position: relative;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/home-banner.jpg) no-repeat scroll center; }
@@ -545,7 +545,7 @@ button:focus {
 
 .banner_area {
   position: relative;
-  background: url(../img/banner/aboutus.jpeg) no-repeat center center;
+  background: url(../img/banner/banner.jpg) no-repeat center center;
   z-index: 1;
   min-height: 392px;
   padding-top: 0 !important; }
@@ -605,7 +605,7 @@ button:focus {
 /* Start Features Area css
 ============================================================================================ */
 .feature_area {
-  margin-top: -37em; }
+  margin-top: -30em; }
   @media (max-width: 991px) {
     .feature_area {
       margin-top: 60px; } }
@@ -872,10 +872,10 @@ button:focus {
 .fact_area {
   position: relative;
   color: #fff;
-  background-image: url(../img/features-bg1.jpg);
+  background-image: url(../img/try/1.jpg);
   background-size: cover;
   z-index: 1;
-  padding: 120px 0 90px; }
+  padding: 90px 0 90px; }
   @media (max-width: 991px) {
     .fact_area {
       padding: 60px 0 30px; } }
@@ -1080,7 +1080,7 @@ button:focus {
 /* Start Instructor Area css
 ============================================================================================ */
 .instructors_area {
-  padding: 50px 0 90px; }
+  padding: 120px 0 90px; }
   @media (max-width: 991px) {
     .instructors_area {
       padding: 60px 0 30px; } }
