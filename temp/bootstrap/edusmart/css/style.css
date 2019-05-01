@@ -89,7 +89,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 120px 0; }
+  padding: 20px 0; }
   @media (max-width: 991px) {
     .section_gap {
       padding: 60px 0; } }
@@ -131,7 +131,7 @@ button:focus {
     margin: auto; }
 
 .lite_bg {
-  background: #d9d9d9; }
+  background: #f9f9f9; }
 
 /* End Main Title Area css
 ============================================================================================ */
@@ -545,7 +545,7 @@ button:focus {
 
 .banner_area {
   position: relative;
-  background: url(../img/banner/aboutus.jpeg) no-repeat center center;
+  background: url(../img/banner/banner.jpg) no-repeat center center;
   z-index: 1;
   min-height: 392px;
   padding-top: 0 !important; }
@@ -1080,7 +1080,7 @@ button:focus {
 /* Start Instructor Area css
 ============================================================================================ */
 .instructors_area {
-  padding: 50px 0 90px; }
+  padding: 120px 0 90px; }
   @media (max-width: 991px) {
     .instructors_area {
       padding: 60px 0 30px; } }
@@ -3135,7 +3135,7 @@ h6 {
   /* Footer Area css
   ============================================================================================ */
   .footer-area .col-sm-6 {
-    margin-bottom: 30px; }
+    margin-bottom: 10px; }
 
   /* End End Footer Area css
   ============================================================================================ */
@@ -3184,7 +3184,7 @@ h6 {
 
   .footer-bottom .footer-social {
     text-align: center;
-    margin-top: 15px; }
+    margin-top: 0px; }
 
   /* End End Footer Area css
   ============================================================================================ */ }
@@ -3244,7 +3244,7 @@ h6 {
   /* Footer Area css
   ============================================================================================ */
   .footer-area {
-    padding: 70px 0px; }
+    padding: 0px 0px; }
 
   /* End End Footer Area css
   ============================================================================================ */
