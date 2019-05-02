@@ -131,7 +131,7 @@ button:focus {
     margin: auto; }
 
 .lite_bg {
-  background: #d9d9d9; }
+  background: #efefef; }
 
 /* End Main Title Area css
 ============================================================================================ */
@@ -414,7 +414,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  min-height: 780px;
+  min-height: 520px;
   display: flex;
   position: relative;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/home-banner.jpg) no-repeat scroll center; }
@@ -545,7 +545,7 @@ button:focus {
 
 .banner_area {
   position: relative;
-  background: url(../img/banner/aboutus.jpeg) no-repeat center center;
+  background: url(../img/banner/aboutus.jpg) no-repeat center center;
   z-index: 1;
   min-height: 392px;
   padding-top: 0 !important; }
@@ -605,7 +605,7 @@ button:focus {
 /* Start Features Area css
 ============================================================================================ */
 .feature_area {
-  margin-top: -37em; }
+  margin-top: -30em; }
   @media (max-width: 991px) {
     .feature_area {
       margin-top: 60px; } }
@@ -874,6 +874,7 @@ button:focus {
   color: #fff;
   background-image: url(../img/features-bg1.jpg);
   background-size: cover;
+  background-position: center;
   z-index: 1;
   padding: 120px 0 90px; }
   @media (max-width: 991px) {
@@ -3284,10 +3285,15 @@ h6 {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #000000; }
+  background: #000000;
+  font-size: larger;
+  padding: 30px 0px; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; }
+      .footer-area{
+        padding: 10px 0px;
+        } }
   .footer-area .single-footer-widget h4 {
     color: #ffffff;
     margin-bottom: 35px; }
@@ -3356,10 +3362,10 @@ h6 {
     .footer-area .single-footer-widget .click-btn:hover {
       background-position: right center; }
   .footer-area .footer-bottom {
-    margin-top: 50px; }
+    margin-top: 15px; }
     @media (max-width: 991px) {
       .footer-area .footer-bottom {
-        margin-top: 20px; } }
+        margin-top: 5px; } }
     .footer-area .footer-bottom a {
       color: #00aee0; }
     .footer-area .footer-bottom .footer-social {
