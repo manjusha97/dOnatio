@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>dOnatio-Admin-Donations</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+    <a class="navbar-brand mr-1" href="index.html">Welcome!</a>
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+      </li>       
+      <li class="nav-item">
+        <a class="nav-link" href="classifier.html">
+          <i class="fas fa-project-diagram"></i>
+          <span>Classifier</span></a>
+      </li>     
+      <li class="nav-item active">
+        <a class="nav-link" href="donations.html">
+          <i class="fas fa-fw fa-shopping-cart"></i>
+          <span>Donations</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="organizations.html">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Organizations</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shippers.html">
+          <i class="fas fa-truck-loading"></i>
+          <span>Shippers</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-user-ninja"></i>
+          <span>Logout</span></a>
+      </li>
+    </ul>
+
+    <div id="content-wrapper">
+
+      <div class="container-fluid">
+
+        <!-- Link -->
+        <!-- Breadcrumbs-->
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="donations.html">Donations</a>
+          </li>
+          <li class="breadcrumb-item active">Donation Details</li>
+        </ol>
+
+      <!-- Donation Details -->
+        <div class="col-lg-8 col-md-10" style="margin:auto;">
+        <div class="card mb-3">
+          <div class="card-header text-success"><b>Donation ID : 129034</b></div>
+          <div class="card-body">
+            <form method="post" action="#">
+              <div class="form-group">
+                <label>Donor ID :</label>
+                <input type="text" class="form-control" name="donorid" disabled value="39525" />
+              </div> 
+              <div class="form-group">
+                <label>Donor Details :</label>
+                <textarea class="form-control" rows="3" name="donordetails" disabled>Name &#13;Number &#13;Address</textarea>
+              </div>  
+              <div class="form-group">
+                <label>Organization ID :</label>
+                <input type="text" class="form-control" name="orgid" disabled value="39525" />
+              </div>
+              <div class="form-group">
+                <label>Organization Details :</label>
+                <textarea class="form-control" rows="3" name="orgdetails" disabled>Name &#13;Number &#13;Address</textarea>
+              </div>
+              <div class="form-group">
+                <label>Donation Details :</label>
+                <input class="form-control" name="donationdetails" disabled value="Type : Quantity">
+              </div>
+              <div class="form-group">
+                <label>Shipper ID :</label>
+                  <select class="form-control" name="shipperid">
+                    <option>17876</option>
+                    <option>54525</option>
+                    <option>57853</option>
+                    <option>47652</option>
+                  </select>
+              </div>  
+              <div class="form-group">
+                <label>Shipper Details :</label>
+                <textarea class="form-control" rows="2" name="shipperdetails" disabled>Name &#13;Number</textarea>
+              </div>    
+              <div class="form-group">
+                <input type="submit" name="dontationdetails" value="Update" class="btn btn-success">
+              </div>                     
+            </form>
+          </div>
+        </div>
+        </div>
+      <!-- /.container-fluid -->
+
+      <!-- Sticky Footer -->
+      <footer class="sticky-footer">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright © dOnatio 2019</span>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- /.content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin.min.js"></script>
+
+</body>
+
+</html>
