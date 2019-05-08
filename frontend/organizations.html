@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>EduSmart Education</title>
+	<title>Organizations</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -47,11 +47,18 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Login</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="login/dlogin.html">Donor</a></li>
+									<li class="nav-item"><a class="nav-link" href="login/ologin.html">Organization</a></li>
+								</ul>
+							</li>
 							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item active"><a class="nav-link" href="organizations.html">Organization</a></li>
+							<li class="nav-item"><a class="nav-link" href="organizations.html">Organization</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							<li class="nav-item"><a href="#" class="nav-link">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -60,23 +67,39 @@
 	</header>
 	<!--================ End Header Menu Area =================-->
 
+    <!--================Home Banner Area =================-->
+    <section class="banner_area" style="background-image: url('img/d.jpg');">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay"></div>
+            <div class="container">
+    			<div class="row justify-content-center">
+					<div class="col-lg-6" style="margin-top:-5em;">
+						<div class="banner_content text-center">
+							<h2>Organizations</h2>
+							<p style="color:white">We have a number of trustworthy and decent charitable organizations that have registered with us. You can pick anyone as per your likes and preferences. Enjoy donating!</p>	
+						</div>			
+						<form class="d-flex" method="" action="">
+
+							<input type="text" class="form-control" placeholder="Search Organizations Here">&nbsp;
+							<button type="submit" class="btn primary-btn" style="line-height: inherit;border-radius: 0.25em;"><i class="lnr lnr-magnifier"></i></button>
+						</form>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+
 	<!--================ Start Organizations Area =================-->
 	<div class="events_area">
-		<!-- Search bar -->
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6" style="margin-top:-5em;">					
-					<form class="d-flex" method="" action="">
-						<input type="text" class="form-control" placeholder="Search Here">&nbsp;
-						<button type="submit" class="btn primary-btn" style="line-height: inherit;border-radius: 0.25em;"><i class="lnr lnr-magnifier"></i></button>
-					</form>
-				</div>
-			</div>
 			<!-- Organizations List -->
 			<div class="row">
+				<div class="container">
+    			<div class="row justify-content-center">
                 <!-- single course -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="single_course hover-opacity"><a href="course-details.html">
+                    <div class="single_course hover-opacity"><a href="organization-details.html">
                         <div class="course_head overlay">
                             <img class="img-fluid w-100" src="img/event1.jpg" alt="">
                         </div>
@@ -90,7 +113,7 @@
                 </div>
                 <!-- single course -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="single_course hover-opacity"><a href="course-details.html">
+                    <div class="single_course hover-opacity"><a href="organization-details.html">
                         <div class="course_head overlay">
                             <img class="img-fluid w-100" src="img/event1.jpg" alt="">
                         </div>
@@ -104,7 +127,7 @@
                 </div>
                 <!-- single course -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="single_course hover-opacity"><a href="course-details.html">
+                    <div class="single_course hover-opacity"><a href="organization-details.html">
                         <div class="course_head overlay">
                             <img class="img-fluid w-100" src="img/event1.jpg" alt="">
                         </div>
@@ -118,7 +141,7 @@
                 </div>
                 <!-- single course -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="single_course hover-opacity"><a href="course-details.html">
+                    <div class="single_course hover-opacity"><a href="organization-details.html">
                         <div class="course_head overlay">
                             <img class="img-fluid w-100" src="img/event1.jpg" alt="">
                         </div>
@@ -131,6 +154,8 @@
                     </a></div>
                 </div>
             </div>
+        </div>
+    </div>
 		</div>
 	</div>
 	<!--================ End Organizations Area =================-->
@@ -145,15 +170,15 @@
 				<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>Careers</h4>
 					<ul>
-						<li><a href="#">Volunteer</a></li>
-						<li><a href="#">Delivery </a></li>
+						<li><a href="contact.html">Volunteer</a></li>
+						<li><a href="contact.html">Delivery </a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>&nbsp;</h4>
 					<ul>
-						<li><a href="#">Developer</a></li>
-						<li><a href="#">Marketing</a></li>
+						<li><a href="contact.html">Developer</a></li>
+						<li><a href="contact.html">Marketing</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 single-footer-widget">
@@ -161,15 +186,15 @@
 				<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>Quick Links</h4>
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about-us.html">About</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 single-footer-widget">
 					<h4>&nbsp;</h4>
 					<ul>
 						<li><a href="#">Organizations</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</div>
